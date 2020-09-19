@@ -1,0 +1,104 @@
+/* font-family: 'Glegoo', serif;
+font-family: 'Montserrat', sans-serif;
+font-family: 'Play', sans-serif; */
+/* #006d51
+#99C2B8
+#003B2C
+#28866E
+#00BA8C
+#f59f19
+#F7DCB1 */
+
+body {
+  padding-top: 50px;
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+}
+h1 {
+  font-size: 4rem;
+  font-family: 'Play', sans-serif;
+  font-weight: bold;
+  padding-bottom: 5%;
+}
+
+h2, h3, h4, h5, h6 {
+  font-family: 'Play', sans-serif;
+  font-weight: bold;
+}
+p {
+  color: #8f8f8f;
+  font-size: 1.75rem;
+  text-align: left;
+}
+/* Navagation bar */
+.navbar {
+  background-image: none;
+  background-color: #003B2C;
+}
+.navagation-bar{
+  background-color: #003B2C;
+  color: #f59f19;
+}
+.navagation-item{
+  color: #f59f19;
+  text-align: right;
+}
+.navagation-item:hover {
+  color: #C27F13;
+}
+.custom-toggler {
+  color: #f59f19;
+  font-size: 1.5rem;
+}
+.navbar-brand {
+  font-family: 'Play', sans-serif;
+  font-weight: bold;
+}
+.logo-navbar{
+  margin-right: 5%;
+}
+
+/* Containers */
+.top-container{
+  background-color: #006d51;
+  padding: 5% 10%;
+  text-align: left;
+  color: #f59f19;
+}
+.container-fluid{
+  padding: 0;
+}
+
+
+/* Sections */
+.white-section {
+  padding: 7% 10%;
+  color: #006d51;
+  background-color: #fff;
+}
+
+.colored-section {
+  background-color: #28866E;
+  padding: 7% 10%;
+}
+
+
+/* footer */
+#footer {
+  background-color: #003B2C;
+  color: #f59f19;
+  padding: 0 10%;
+}
+#footer p {
+  text-align: center;
+  font-size: 1rem;
+}
+
+.footer-icon{
+  margin: 20px 10px;
+  font-size: 1.25rem;
+  color: #f59f19;
+}
+.footer-icon:hover {
+  color: #C27F13;
+}
